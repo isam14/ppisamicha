@@ -1,0 +1,59 @@
+body
+	{
+		margin: 0;
+		padding:0;
+	}
+
+.header
+	{
+		display:flex;
+		justify-content: space-around;
+	}
+
+
+.header h1
+	{
+		font-size: 30px;
+		font-weight: 30;
+	   	font-family: 'Philosopher', sans-serif;
+	}
+
+main
+	{
+		background-color: grey;
+	}
+
+.container
+	{
+		margin-top: 2em;
+		width:70%;
+		margin-right: auto;
+		margin-left: auto; 
+	}
+
+.container img
+	{
+		display:block;
+		width:100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+.date 
+	{
+		font-size: 12px;
+		font-style: italic;
+		color: red; 
+	}
+.footer ul
+	{
+	display:flex;
+	list-style: none;
+	justify-content: flex-end;
+	}
+
+.footer ul li 
+	{
+	padding-right: 1em;
+	}
+	
